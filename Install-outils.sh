@@ -1,4 +1,12 @@
 #!/bin/bash
+# -------------------------------------------------------
+# Script d'installation automatique d'outils OSINT
+# Auteur : virg736
+# GitHub : https://github.com/virg736/osint-guide-
+# Licence : MIT
+# Dernière mise à jour : 2025-05-22
+# -------------------------------------------------------
+
 
 echo "Installation des outils OSINT..."
 
@@ -17,3 +25,4 @@ pip3 install -r requirements.txt
 cd ..
 
 echo "Installation terminée !"
+
