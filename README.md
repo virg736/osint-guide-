@@ -37,7 +37,7 @@ git push origin main
 1. [Introduction](#introduction)
 2. [OSINT passif](#osint-passif)
 ...
-Voir le script d'installation ici : [install-outils.sh](./install-outils.sh)
+Voir le script d'installation ici : [Install-outils.sh](./Install-outils.sh)
 
 ## Techniques OSINT Actives
 
@@ -76,7 +76,7 @@ Résultats : graphe interactif + tableau
 
 ### Installation automatique des outils
 Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, utilisez ce script :
-[install-outils.sh](./install-outils.sh)
+[Install-outils.sh](./Install-outils.sh)
 
 ---
 
