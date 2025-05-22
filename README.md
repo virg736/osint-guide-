@@ -2,81 +2,87 @@
 ![Licence](https://img.shields.io/github/license/virg736/osint-guide-?style=flat-square)
 ![Dernière mise à jour](https://img.shields.io/badge/dernière%20mise%20à%20jour-2025--05--22-blue?style=flat-square)
 
----
-## Introduction générale du projet
-
+Guide complet OSINT (passive & active techniques, tools, real use cases)
 Ce projet fournit un guide complet pour découvrir, installer et utiliser des outils OSINT (Open Source Intelligence).
 Il s’adresse aux passionnés de cybersécurité, aux étudiants ou aux professionnels souhaitant automatiser la collecte d’informations avec Kali Linux.
 
 ---
+
+## Introduction générale du projet
+
+Ce projet fournit un guide complet pour découvrir, installer et utiliser des outils OSINT.
+Il s’adresse aux passionnés de cybersécurité, aux étudiants ou aux professionnels souhaitant automatiser la collecte d’informations avec Kali Linux.
 
 ## Sommaire
 
 - [Introduction](#introduction)
 - [Techniques OSINT Passives](#techniques-osint-passives)
 - [Techniques OSINT Actives](#techniques-osint-actives)
-- [Outils utilisés](#outils-utilisés)
+- [Outils utilisés](#outils-utilisées)
 - [Google Dorks](#google-dorks)
 - [Commandes sur Kali Linux](#commandes-sur-kali-linux)
-- [Archives Web](#archives-web)
-- [Cas pratiques](#cas-pratiques)
-- [Ressources complémentaires](#ressources-complémentaires)
+- [Installation automatique des outils](#installation-automatique-des-outils)
+- [Comment utiliser ce script ?](#comment-utiliser-ce-script)
 
 ---
- 
 
-# Techniques OSINT Passives
+## Introduction
 
-## 1. Google Dorks
-Utilisation manuelle :site:example.com filetype:pdf
+L’OSINT (Open Source Intelligence) consiste à collecter des informations à partir de sources ouvertes.
 
-## 2. Whois / DNS
-Outils :
-- `whois nomdedomaine.com`
-- `host site.com` sur Kali
+---
 
-## 3. MXtoolbox
-Site : [https://mxtoolbox.com](https://mxtoolbox.com)
+## Techniques OSINT Passives
 
-git add .
-git commit -m "Ajout de la structure et du contenu OSINT"
-git push origin main
+### 1. Google Dorks
+intitle:“index of” site:example.com
 
-## Table of Contents
+inurl:admin site:target.com
 
-1. [Introduction](#introduction)
-2. [OSINT passif](#osint-passif)
-...
-Voir le script d'installation ici : [Install-outils.sh](./Install-outils.sh)
+### 2. Whois / DNS
+whois target.com
+
+host site.com
+
+### 3. MXtoolbox
+
+- Site : [https://mxtoolbox.com](https://mxtoolbox.com)
+
+---
 
 ## Techniques OSINT Actives
 
 ### 1. theHarvester
+
 Outil de collecte d’emails, noms de domaine, IP depuis Google, Bing, etc.
 
-```bash
 theharvester -d example.com -b google -l 100 -v
--d : domaine
--b : source (google, bing, linkedin, etc.)
--l : limite de résultats
--v : mode verbeux
+
+- `-d` : domaine
+- `-b` : source (google, bing, linkedin, etc.)
+- `-l` : limite de résultats
+- `-v` : mode verbeux
 
 ### 2. Metagoofil
+
 Extrait les métadonnées de fichiers (PDF, DOC, XLS, etc.)
 
-metagoofil -d example.com -t pdf,doc,xls -l 20 -n 10 -o resultat -f result.html
--d : domaine
--t : types de fichiers
--l : nombre de fichiers à télécharger
--o : dossier de sortie
--f : nom du fichier HTML exporté
+metagoofil -d example.com -t pdf,doc,xls -l 20 -o resultat -f result.html
+
+- `-d` : domaine
+- `-t` : types de fichiers
+- `-l` : nombre de fichiers à télécharger
+- `-o` : dossier de sortie
+- `-f` : nom du fichier HTML exporté
 
 ### 3. SpiderFoot
 
 Scanner OSINT automatisé avec interface Web.
 
 cd spiderfoot
+
 python3 sf.py
+
 Accès Web : http://127.0.0.1:5001
 Lance un “New Scan”
 Cible : domaine, IP ou email
@@ -84,12 +90,35 @@ Résultats : graphe interactif + tableau
 
 ---
 
-### Installation automatique des outils
+## Outils utilisées
+
+- theHarvester
+- dnscan
+- SpiderFoot
+- Metagoofil
+
+---
+
+## Google Dorks
+intitle:“index of” site:example.com
+
+inurl:admin site:target.com
+
+---
+
+## Commandes sur Kali Linux
+
+---
+
+## Installation automatique des outils
+
 Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, utilisez ce script :
 [Install-outils.sh](./Install-outils.sh)
 
 ---
+
 ## Comment utiliser ce script ?
+
 1. Ouvre un terminal sous Kali Linux.
 2. Va dans le dossier où tu veux installer les outils.
 3. Exécute les commandes suivantes :
@@ -98,10 +127,6 @@ Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, u
 wget https://raw.githubusercontent.com/virg736/osint-guide-/main/Install-outils.sh
 chmod +x Install-outils.sh
 ./Install-outils.sh
----
-
-
-
 
 
 
