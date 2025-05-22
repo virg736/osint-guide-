@@ -1,4 +1,7 @@
 # osint-guide-
+![Licence](https://img.shields.io/github/license/virg736/osint-guide-?style=flat-square)
+![Dernière mise à jour](https://img.shields.io/badge/dernière%20mise%20à%20jour-2025--05--22-blue?style=flat-square)
+
 Guide complet OSINT (passive & active techniques, tools,real use cases) Guide complet OSINT (techniques passives & actives, outils, cas pratiques)
 
   OSINT GUIDE
