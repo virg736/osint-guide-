@@ -75,7 +75,7 @@ Résultats : graphe interactif + tableau
 ---
 
 ###Installation automatique des outils
-Pour installer automatiquement "**theHarvester**", "**dnscan**" et "**SpiderFoot**", utilisez ce script :
+Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, utilisez ce script :
 [install-outils.sh](./install-outils.sh)
 
 ---
