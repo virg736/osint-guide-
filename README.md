@@ -79,6 +79,18 @@ Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, u
 [Install-outils.sh](./Install-outils.sh)
 
 ---
+## Comment utiliser ce script ?
+1. Ouvre un terminal sous Kali Linux.
+2. Va dans le dossier où tu veux installer les outils.
+3. Exécute les commandes suivantes :
+
+```bash
+wget https://raw.githubusercontent.com/virg736/osint-guide-/main/Install-outils.sh
+chmod +x Install-outils.sh
+./Install-outils.sh
+---
+
+
 
 
 
