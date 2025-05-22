@@ -2,11 +2,15 @@
 ![Licence](https://img.shields.io/github/license/virg736/osint-guide-?style=flat-square)
 ![Dernière mise à jour](https://img.shields.io/badge/dernière%20mise%20à%20jour-2025--05--22-blue?style=flat-square)
 
-Guide complet OSINT (passive & active techniques, tools,real use cases) Guide complet OSINT (techniques passives & actives, outils, cas pratiques)
-
-  OSINT GUIDE
-│
+---
 ## Introduction générale du projet
+
+Ce projet fournit un guide complet pour découvrir, installer et utiliser des outils OSINT (Open Source Intelligence).
+Il s’adresse aux passionnés de cybersécurité, aux étudiants ou aux professionnels souhaitant automatiser la collecte d’informations avec Kali Linux.
+
+---
+
+## Sommaire
 
 - [Introduction](#introduction)
 - [Techniques OSINT Passives](#techniques-osint-passives)
@@ -17,6 +21,9 @@ Guide complet OSINT (passive & active techniques, tools,real use cases) Guide co
 - [Archives Web](#archives-web)
 - [Cas pratiques](#cas-pratiques)
 - [Ressources complémentaires](#ressources-complémentaires)
+
+---
+ 
 
 # Techniques OSINT Passives
 
