@@ -128,5 +128,7 @@ wget https://raw.githubusercontent.com/virg736/osint-guide-/main/Install-outils.
 chmod +x Install-outils.sh
 ./Install-outils.sh
 
+© 2025 Virginie Lechene — Tous droits réservés.
+
 
 
