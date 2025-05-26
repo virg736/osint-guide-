@@ -128,7 +128,18 @@ wget https://raw.githubusercontent.com/virg736/osint-guide-/main/Install-outils.
 chmod +x Install-outils.sh
 ./Install-outils.sh
 
+---
+
+## Avertissement légal
+
+> Ce projet est exclusivement destiné à des fins éducatives, dans le cadre de la formation à la cybersécurité.
+> L’auteure ne cautionne ni n’autorise l’utilisation de ces techniques en dehors d’un cadre légal strictement défini.
+> Toute utilisation non autorisée est interdite et relève de la seule responsabilité de l’utilisateur.
+
+## Auteur / Droits
+
 © 2025 Virginie Lechene — Tous droits réservés.
+Reproduction interdite sans autorisation.
 
 
 
