@@ -137,19 +137,6 @@ chmod +x Install-outils.sh
  Toute utilisation non autorisée est interdite et relève de la seule responsabilité de l’utilisateur.
 
 
-## Licence
-
-Ce projet est sous licence MIT – voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## Clause de non-responsabilité
-
-Ce projet est fourni **à des fins strictement éducatives**.
-Toute utilisation de ce code ou de ces techniques dans un cadre illégal, non autorisé, ou à l’encontre des lois en vigueur est **strictement interdite**.
-**L’autrice décline toute responsabilité** en cas d’usage abusif, malveillant ou contraire à l’éthique du contenu ou des outils présentés.
-
-Le projet est distribué **"en l’état", sans aucune garantie**, conformément aux termes de la **licence MIT**.
-
-
 ## Auteur / Droits
 
 © 2025 Virginie Lechene — Tous droits réservés.
