@@ -17,7 +17,7 @@ sudo apt update && sudo apt install -y \
 git \
 python3-pip \
 python3-venv \
-theharvester
+theharvester 
 
 # -------------------------------------------------------
 # 2. Création d'un environnement Python isolé
