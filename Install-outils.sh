@@ -17,7 +17,7 @@ sudo apt update && sudo apt install -y \
 git \
 python3-pip \
 python3-venv \
-theharvester 
+theharvester
 
 # -------------------------------------------------------
 # 2. Création d'un environnement Python isolé
@@ -57,16 +57,18 @@ cd ..
 
 echo "Installation terminée !"
 
-##  Avertissement légal
+# -------------------------------------------------------
+# Avertissement légal :
+# Ce projet est exclusivement destiné à des fins éducatives,
+# dans le cadre de la formation à la cybersécurité.
+# L’auteure ne cautionne ni n’autorise l’utilisation de ces
+# techniques en dehors d’un cadre légal strictement défini.
+# Toute utilisation non autorisée est interdite et relève
+# de la seule responsabilité de l’utilisateur.
+# -------------------------------------------------------
 
-> Ce projet est exclusivement destiné à des fins éducatives, dans le cadre de la formation à la cybersécurité.
-> L’auteure ne cautionne ni n’autorise l’utilisation de ces techniques en dehors d’un cadre légal strictement défini.
-> Toute utilisation non autorisée est interdite et relève de la seule responsabilité de l’utilisateur.
 
-##  Auteur / Droits
 
-© 2025 Virginie Lechene — Tous droits réservés.
-Reproduction interdite sans autorisation.
 
 
 
