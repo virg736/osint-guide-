@@ -1,4 +1,4 @@
-[![ShellCheck](https://github.com/virg736/osint-guide-/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/virg736/osint-guide-/actions/workflows/shellcheck.yml)
+[![ShellCheck](https://github.com/virg736/osint-guide-/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/virg736/osint-guide-/actions/workflows/shellcheck.yml) 
 
 
 
