@@ -1,6 +1,3 @@
-![ShellCheck](https://github.com/virg736/osint-guide/actions/workflows/shellcheck.yml/badge.svg)
-![Licence](https://img.shields.io/github/license/virg736/osint-guide?style=flat-square)
-
 
 # osint-guide-
 ![Licence](https://img.shields.io/github/license/virg736/osint-guide-?style=flat-square)
