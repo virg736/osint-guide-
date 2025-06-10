@@ -7,10 +7,10 @@
 <img src="https://img.shields.io/badge/Licence-Creative%20Commons%20BY%204.0-lightgrey.svg" alt="Licence Creative Commons BY 4.0">
 </a>
 </p>
-
 <p align="center">
-<img src="OSINT.PNG" alt="OSINT Image" width="600">
+<img src="OSINT.PNG" alt="OSINT image" style="max-width: 100%; height: auto;">
 </p>
+
 
 
 
