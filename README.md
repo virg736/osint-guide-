@@ -3,16 +3,16 @@
 [![Dernière mise à jour](https://img.shields.io/badge/dernière%20mise%20à%20jour-2025--05--22-blue)](README.md)
 
 <p align="center">
-<!-- Badge Licence Creative Commons -->
 <a href="https://creativecommons.org/licenses/by/4.0/">
 <img src="https://img.shields.io/badge/Licence-Creative%20Commons%20BY%204.0-lightgrey.svg" alt="Licence Creative Commons BY 4.0">
 </a>
 </p>
 
 <p align="center">
-<!-- Image OSINT centrée -->
 <img src="OSINT.PNG" alt="OSINT Image" width="600">
 </p>
+
+
 
 
 # osint-guide-
