@@ -142,6 +142,8 @@ inurl:admin site:target.com
 
 ## Installation automatique des outils
 
+**Sécurité lors de l’installation :** testez d’abord les scripts en `--dry-run` / dans une VM snapshotée. Ne poussez jamais vos clés API ni pcap/logs dans le dépôt.
+
 Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, utilisez ce script :
 [Install-outils.sh](./Install-outils.sh)
 
