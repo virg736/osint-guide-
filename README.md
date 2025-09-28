@@ -105,6 +105,16 @@ Résultats : graphe interactif + tableau
 
 ---
 
+**Alternatives / outils modernes recommandés :**
+- `amass`, `subfinder`, `assetfinder` — découverte de sous-domaines
+- `httpx` — vérification rapide des endpoints HTTP(S)
+- `waybackurls` / `gau` — URLs historiques
+- `exiftool` — extraction métadonnées locale (meilleur que Metagoofil pour fichiers locaux)
+- `nuclei` — scanning de templates (après collecte)
+
+---
+
+
 ## Outils utilisées
 
 - theHarvester
