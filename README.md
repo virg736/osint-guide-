@@ -49,6 +49,8 @@ L’OSINT (Open Source Intelligence) consiste à collecter des informations à p
 
 ## Techniques OSINT Passives
 
+**Remarque éthique :** n’utilisez que des domaines contrôlés (`example.com`, `test.local`) ou obtenez une autorisation écrite avant toute collecte active.
+
 ### 1. Google Dorks
 intitle:“index of” site:example.com
 
