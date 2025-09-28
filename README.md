@@ -108,6 +108,9 @@ Résultats : graphe interactif + tableau
 ---
 
 **Alternatives / outils modernes recommandés :**
+
+**Remarque technique :** privilégiez les APIs (Hunter, Shodan, Censys) lorsque possible au scraping direct. Pour l’énumération moderne, combinez `amass`, `subfinder`, `httpx`, `waybackurls` et `nuclei`.
+
 - `amass`, `subfinder`, `assetfinder` — découverte de sous-domaines
 - `httpx` — vérification rapide des endpoints HTTP(S)
 - `waybackurls` / `gau` — URLs historiques
