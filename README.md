@@ -111,7 +111,7 @@ Résultats : graphe interactif + tableau
 
 **Remarque technique :** privilégiez les APIs (Hunter, Shodan, Censys) lorsque possible au scraping direct. Pour l’énumération moderne, combinez `amass`, `subfinder`, `httpx`, `waybackurls` et `nuclei`.
 
-- `amass`, `subfinder`, `assetfinder` — découverte de sous-domaines
+- `amass`, `subfinder`, `assetfinder` - découverte de sous-domaines
 - `httpx` - vérification rapide des endpoints HTTP(S)
 - `waybackurls` / `gau` - URLs historiques
 - `exiftool` - extraction métadonnées locale (meilleur que Metagoofil pour fichiers locaux)
@@ -155,7 +155,7 @@ Pour installer automatiquement **theHarvester**, **dnscan** et **SpiderFoot**, u
 2. Va dans le dossier où tu veux installer les outils.
 3. Exécute les commandes suivantes :
 
-```bash
+
 wget https://raw.githubusercontent.com/virg736/osint-guide-/main/Install-outils.sh
 chmod +x Install-outils.sh
 ./Install-outils.sh
