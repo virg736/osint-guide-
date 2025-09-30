@@ -112,10 +112,10 @@ Résultats : graphe interactif + tableau
 **Remarque technique :** privilégiez les APIs (Hunter, Shodan, Censys) lorsque possible au scraping direct. Pour l’énumération moderne, combinez `amass`, `subfinder`, `httpx`, `waybackurls` et `nuclei`.
 
 - `amass`, `subfinder`, `assetfinder` — découverte de sous-domaines
-- `httpx` — vérification rapide des endpoints HTTP(S)
-- `waybackurls` / `gau` — URLs historiques
-- `exiftool` — extraction métadonnées locale (meilleur que Metagoofil pour fichiers locaux)
-- `nuclei` — scanning de templates (après collecte)
+- `httpx` - vérification rapide des endpoints HTTP(S)
+- `waybackurls` / `gau` - URLs historiques
+- `exiftool` - extraction métadonnées locale (meilleur que Metagoofil pour fichiers locaux)
+- `nuclei` - scanning de templates (après collecte)
 
 ---
 
@@ -171,7 +171,7 @@ chmod +x Install-outils.sh
 
 ## Auteur / Droits
 
-© 2025 Virginie Lechene — Tous droits réservés.
+© 2025 Virginie Lechene  - Tous droits réservés.
 Reproduction interdite sans autorisation.
 
 
